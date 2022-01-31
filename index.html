@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Matthew Kho</title>
 <style>
 * {
 	box-sizing: border-box;
-	color: #323232;
+	color: #000000;
 	font-family: "Founders Grotesk Text", "Work Sans", sans-serif;
 }
 
 @media (min-width: 700px) {
 	.max-width {
 		width: 700px;
-		background:green;
+		background:#ffffff;
 		vertical-align: middle;
 	}
 }
@@ -23,21 +24,23 @@
 	}
 }
 
+@media (min-height: 600px) {
+	.max-width {
+		padding-top: 8em;
+	}
+}
+
 .container {
 	text-align: center;
-	// display: flex;
+	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 }
 
-.content {
-	/* flex-direction: column;
-	 flex:100%;
-	 */
-}
 
 .menu-links {
-	font-size: calc(18px + 4 * ((100vw - 320px) / 1480));
+	// font-size: calc(18px + 4 * ((100vw - 320px) / 1480));
 }
 
 p.blurb {
@@ -49,23 +52,27 @@ p.blurb {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 	margin-bottom:35px;
-	font-size: calc(16px + 2 * ((100vw - 320px) / 1480));
+	// font-size: calc(16px + 2 * ((100vw - 320px) / 1480));
+	width:100%;
+	text-align:left;
 }
 
 </style>
 </head>
 <body>
-<!-- <div class="container"> -->
-<div class="max-width">
-	<h1>Hello World</h1>
-	<h2 class="menu-links">Hello World</h2>
+<div class="container">
+<div class="max-width ">
+	<a href="mailto:mkho0505@gmail.com"><h1>contact</h1></a>
+<!--	<h2 class="menu-links">Hello World</h2>
 	<h3>Hello World</h3>
 	<h4>Hello World</h4>
-</div>
 
-<!-- </div> -->
+
+
 
 <p class="blurb">I'm hosted with GitHub Pages.</p>
-
+-->
+</div>
+</div>
 </body>
 </html>
