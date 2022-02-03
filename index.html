@@ -2,47 +2,40 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
 <title>Matthew Kho</title>
 <style>
-* {
-	box-sizing: border-box;
-	color: #000000;
-	font-family: "Founders Grotesk Text", "Work Sans", sans-serif;
-}
 
-@media (min-width: 700px) {
-	.max-width {
-		width: 700px;
-		background:#ffffff;
-		vertical-align: middle;
-	}
-}
-@media (max-width: 700px) {
-	.max-width {
-		width: 100%;
-		padding: 1em;
-		// background:blue;
-	}
-}
+html, body {
+            color: #101010;
+            text-align:center;
+            height:100%;
+            font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            margin:0;
+			
+            font-size: 24px;
 
-@media (min-height: 600px) {
-	.max-width {
-		padding-top: 8em;
-	}
 }
+        body {
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            align-items: center;
+        }
 
-.container {
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
+#container {
+	flex: 1;
+}
+div {
+	display: block;
 }
 
 
-.menu-links {
-	font-size: calc(2em + 4 * ((100vw - 320px) / 1480));
-}
+
 
 p.blurb {
 	
@@ -59,10 +52,17 @@ p.blurb {
 }
 
 a {
-	text-decoration-thickness: 2px;
+	text-decoration-line: none;
+	color: #101010;
 }
 a:hover {
-	text-decoration-line: none;
+	text-decoration-line: underline;
+	text-decoration-thickness: 2px;
+}
+
+#social-media-icons img {
+	width:32px;
+	margin-top:10px;
 }
 	
 
@@ -80,11 +80,11 @@ a:hover {
 
 </head>
 <body>
-<div class="container">
-<div class="max-width ">
+<div id="container">
+
 	<a href="mailto:mkho0505@gmail.com"><h1 class="menu-links">contact</h1></a>
 
-	<div class="social-media-icons">
+	<div id="social-media-icons">
 	<a href="https://www.instagram.com/aboxcar/"><img src="icons/instagram.png" /></a>
 	<a href="https://www.facebook.com/mattkho"><img src="icons/facebook.png" /></a>
 	<!-- <img src="icons/youtube.png" /> -->
@@ -95,7 +95,7 @@ a:hover {
 <!--
 <p class="blurb">I'm hosted Pages.</p>
 -->
-</div>
+
 </div>
 </body>
 </html>
