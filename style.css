@@ -61,6 +61,7 @@ p {
 p a {
 	text-decoration-line: underline;
 	margin:auto;
+	font-size:18px;
 	}
 p a:hover {
 	text-decoration-line: underline;
