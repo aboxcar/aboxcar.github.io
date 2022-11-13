@@ -37,6 +37,10 @@ a:hover {
 	text-decoration-thickness: 2px;
 }
 
+#footerhome {
+	text-align:center;
+}
+
 h1 {
 // letter-spacing: .05em;
 	font-weight:normal;
