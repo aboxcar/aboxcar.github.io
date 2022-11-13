@@ -37,6 +37,10 @@ a:hover {
 	text-decoration-thickness: 2px;
 }
 
+a.indexmenu {
+	display: block;
+}
+
 #footerhome {
 	text-align:center;
 }
@@ -74,4 +78,12 @@ p a:hover {
 ul li {
 	list-style-type: none;
 	font-size:18px;
+	}
+	
+hr {
+	width:500px;
+	}
+	
+#footer hr {
+	width:99%;
 	}
